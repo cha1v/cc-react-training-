@@ -1,0 +1,42 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+	<title>video and audio</title>
+<style type="text/css">
+	#overlayText {
+ position:absolute;
+  top:30%;
+  left:20%;
+  z-index:1;
+}
+
+#Text {
+  color: black;
+  font-size: 20px;
+  align-self: center;
+}
+</style>
+	
+</head>
+
+<body>
+	<div>
+	  <audio controls>
+ 	    <source src="audio.mp3" type="audio/mpeg">
+	
+ 	</audio>
+	  <p style="color:purple; font-size: 20px;">This is the audio clip about The Great Indian Artist "Raja Ravi Varma" </p>
+	</div>
+
+	<div class="container">
+	   <video controls>
+		 <source src="video.mp4" type="video/mp4">
+	    </video>
+ 	<div class="overlayText">
+        <p id="Text" style="color:purple;">Video of painting</p>
+    	</div>
+	
+	
+	</div>
+</body>
+</html>
