@@ -1,0 +1,35 @@
+
+
+.app{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  left:50%;
+  width:100%;
+  color:blueviolet;
+  background-color: rgb(0, 0, 0);
+}
+
+.search{
+  text-align: left;
+  font-size: x-large ;
+  position:relative;
+  left:50px;
+  
+  color:darkslateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list{
+  text-align: left;
+  font-size: x-large ;
+  position:relative;
+  left:50px;
+  color:darkslateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.com{
+  color: brown;
+  margin:10px;
+  padding:10px;
+}
